@@ -21,7 +21,7 @@ const useStyles = createStyles(({ css }) => ({
     z-index: 2;
     margin-top: 24px;
     font-size: 56px;
-    font-weight: 800;
+    font-weight: bold;
   `,
 }));
 

@@ -14,7 +14,6 @@ export const useStyles = createStyles(({ css, token, stylish, cx }) => {
       margin-bottom: 24px;
     `,
     desc: css`
-      font-weight: 400;
       color: ${rgba(token.colorText, 0.8)};
       text-align: center;
     `,
@@ -42,7 +41,7 @@ export const useStyles = createStyles(({ css, token, stylish, cx }) => {
     `,
     title: css`
       margin-bottom: 0.25em;
-      font-weight: 800;
+      font-weight: bold;
       line-height: 1.4;
       text-align: center;
     `,
